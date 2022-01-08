@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  sb-to-aws:
+    build:
+      context: .
+    image: josealeperezp/sb-to-aws
+    ports:
+      - 8080:8080
